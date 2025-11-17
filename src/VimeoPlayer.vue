@@ -116,6 +116,7 @@ export default {
 
     onMounted(() => {
       player = new Player(elementRef.value, mergeOptions({ id: props.videoId, url: props.videoUrl }))
+      
 
       setEvents()
     })
